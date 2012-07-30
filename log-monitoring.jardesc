@@ -4,7 +4,7 @@
     <options buildIfNeeded="true" compress="true" descriptionLocation="/log-monitoring/log-monitoring.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
     <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
     <selectedProjects/>
-    <manifest generateManifest="true" mainClassHandleIdentifier="=log-monitoring/src&lt;ch.krenger.simon.logmonitoring{LogSupervision.java[LogSupervision" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+    <manifest generateManifest="true" mainClassHandleIdentifier="=log-monitoring/src&lt;ch.krenger.simon.logmonitoring{LogMonitor.java[LogMonitor" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
         <sealing sealJar="false">
             <packagesToSeal/>
             <packagesToUnSeal/>
@@ -12,10 +12,10 @@
     </manifest>
     <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
         <file path="/log-monitoring/.project"/>
-        <file path="/log-monitoring/.classpath"/>
         <file path="/log-monitoring/log-monitoring.jardesc"/>
-        <file path="/log-monitoring/logsupervision-example.sh"/>
+        <file path="/log-monitoring/.classpath"/>
         <file path="/log-monitoring/README.md"/>
+        <file path="/log-monitoring/log-monitor-example.sh"/>
         <javaElement handleIdentifier="=log-monitoring/src"/>
         <file path="/log-monitoring/.gitignore"/>
     </selectedElements>
