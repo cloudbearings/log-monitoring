@@ -18,4 +18,4 @@ Example
 > java -jar log-monitoring.jar -i test.log -m ".*ERROR.*|.*WARN.*" -h mail.krenger.local -s logsupervisor@krenger.local -r simon@krenger.local
 
 
-This example will monitor the log file **test.log** and test each new line against the regex ** .*ERROR.*|.*WARN.* ** (just line tail on UNIX). If the line matches the regex, an e-mail will be sent to **simon@krenger.local** via the SMTP server **maik.krenger.local** and with the sender address **logsupervisor@krenger.local**.
+This example will monitor the log file **test.log** and test each new line against the regex **".*ERROR.*|.*WARN.*"** (just line tail on UNIX). If the line matches the regex, an e-mail will be sent to **simon@krenger.local** via the SMTP server **maik.krenger.local** and with the sender address **logsupervisor@krenger.local**.
